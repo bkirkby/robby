@@ -1,0 +1,23 @@
+{
+  "name": "robby",
+  "version": "1.0.0",
+  "description": "robby the robot genetic algorithm",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha --require babel-register",
+    "start": "babel-node server.js",
+    "generate-scenarios": "babel-node utils/generateScenarios.js"
+  },
+  "author": "brian kirkby <bkirkby@instructure.com> (http://www.instructure.com/)",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "mocha": "^4.0.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1"
+  }
+}
